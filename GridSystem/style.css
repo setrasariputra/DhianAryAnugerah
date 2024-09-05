@@ -11,9 +11,23 @@ body {
 .bg-dark {
     background-color: #242424;
 }
+.bg-soft-dark {
+    background-color: #333333;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
 .rounded {
     border-radius: 10px;
 }
 .text-white {
     color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
