@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('night.jpeg');
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bg-dark {
+    background-color: #242424;
+}
+.rounded {
+    border-radius: 10px;
+}
+.text-white {
+    color: white;
+}
