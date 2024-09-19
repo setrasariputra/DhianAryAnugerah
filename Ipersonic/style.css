@@ -1,3 +1,22 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-width: 1150px;
+    margin: auto;
+}
+.topbar {
+    background-color: #2C3E50;
+    color: white;
+}
+.jumbotron {
+
+}
+.content {
+
+}
+.footer {
+
 }
