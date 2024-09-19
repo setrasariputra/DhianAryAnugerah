@@ -26,6 +26,10 @@ body {
     background-color: #FF7518;
     color: white;
 }
+.btn-blue {
+    background-color: #185dff;
+    color: white;
+}
 .btn-sm {
     font-size: 12px;
     font-weight: bold;
