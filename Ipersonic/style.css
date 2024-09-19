@@ -11,6 +11,40 @@ body {
     background-color: #2C3E50;
     color: white;
 }
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    background-color: #cccccc;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+.btn-orange {
+    background-color: #FF7518;
+    color: white;
+}
+.btn-sm {
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-md {
+
+}
+.btn-lg {
+
+}
+.icon-sm {
+    font-size: 10px;
+}
+.icon-md {
+
+}
+.icon-lg {
+
+}
 .jumbotron {
 
 }
