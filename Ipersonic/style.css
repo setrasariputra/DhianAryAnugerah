@@ -23,6 +23,9 @@ body {
     display: flex;
     align-items: center;
 }
+.logo img {
+    width: 110px;
+}
 .btn {
     display: inline-block;
     background-color: #cccccc;
