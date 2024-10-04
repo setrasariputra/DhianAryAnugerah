@@ -69,9 +69,25 @@ body {
 .hero {
 
 }
-.content {
+.main {
 
 }
 .footer {
 
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 950px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
 }
