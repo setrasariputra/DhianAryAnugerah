@@ -10,14 +10,14 @@ body {
     background-color: #2C3E50;
     color: white;
 }
-.container {
-    max-width: 1270px;
-    margin: auto;
-}
 .topbar-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 55px;
+}
+.container {
+    max-width: 1270px;
+    margin: auto;
 }
 .logo {
     display: flex;
@@ -35,6 +35,10 @@ body {
 }
 .btn-orange {
     background-color: #FF7518;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: #EE6509;
     color: white;
 }
 .btn-blue {
@@ -60,6 +64,29 @@ body {
 .icon-lg {
 
 }
+.topmenu {
+    text-align: right;
+}
+.topmenu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.topmenu ul li {
+    display: inline-block;
+}
+.topmenu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 16px 15px 16px 15px;
+    font-size: 18px;
+}
+.topmenu ul li a:hover {
+    background-color: black;
+}
+
+
 .bg-red {
     background-color: red;
 }
@@ -78,7 +105,7 @@ body {
 
 @media (max-width: 1199px) {
     .container {
-        max-width: 950px;
+        max-width: 940px;
     }
 }
 @media (max-width: 991px) {
