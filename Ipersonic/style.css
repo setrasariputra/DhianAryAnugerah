@@ -1,19 +1,27 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
 }
-.container {
-    max-width: 1150px;
-    margin: auto;
-}
 .topbar {
     background-color: #2C3E50;
     color: white;
 }
+.container {
+    max-width: 1270px;
+    margin: auto;
+}
+.topbar-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 55px;
+}
 .logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 .btn {
     display: inline-block;
@@ -49,7 +57,13 @@ body {
 .icon-lg {
 
 }
-.jumbotron {
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.hero {
 
 }
 .content {
