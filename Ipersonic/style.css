@@ -51,7 +51,8 @@ body {
     padding: 5px 10px 5px 10px;
 }
 .btn-lg {
-    
+    font-size: 18px;
+    padding: 20px 40px 20px 40px;
 }
 .icon-sm {
     font-size: 10px;
@@ -135,7 +136,11 @@ body {
     font-weight: 200;
 }
 .main {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.lead {
+    font-size: 20px;
 }
 .footer {
 
