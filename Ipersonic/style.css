@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 .logo img {
-    width: 110px;
+    width: 100px;
 }
 .btn {
     display: inline-block;
@@ -112,7 +112,12 @@ body {
     background-color: #2780E3;
     color: white;
 }
-
+.topmenu ul li a.show-on-tab {
+    display: none;
+}
+.topmenu ul li a.hide-on-tab {
+    display: block;
+}
 
 .bg-red {
     background-color: red;
@@ -170,5 +175,14 @@ body {
 @media (max-width: 767px) {
     .container {
         width: 95%;
+    }
+    .topmenu ul li a.show-on-tab {
+        display: block;
+    }
+    .topmenu ul li a.hide-on-tab {
+        display: none;
+    }
+    .topmenu li:hover ul {
+        margin-left: -150px;
     }
 }
