@@ -16,7 +16,7 @@ body {
     height: 55px;
 }
 .container {
-    max-width: 1270px;
+    max-width: 1150px;
     margin: auto;
 }
 .logo {
@@ -31,7 +31,7 @@ body {
     background-color: #cccccc;
     color: black;
     text-decoration: none;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 20px 10px 20px;
 }
 .btn-orange {
     background-color: #FF7518;
@@ -48,12 +48,10 @@ body {
 .btn-sm {
     font-size: 12px;
     font-weight: bold;
-}
-.btn-md {
-
+    padding: 5px 10px 5px 10px;
 }
 .btn-lg {
-
+    
 }
 .icon-sm {
     font-size: 10px;
@@ -122,7 +120,19 @@ body {
     background-color: blue;
 }
 .hero {
-
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #E2EBF0, #CFD9DF);
+}
+.hero h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+    color: #333333;
+    line-height: 1.2;
+}
+.font-weight-light {
+    font-weight: 200;
 }
 .main {
 
