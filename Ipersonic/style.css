@@ -39,11 +39,17 @@ body {
 }
 .btn-orange:hover {
     background-color: #EE6509;
-    color: white;
 }
 .btn-blue {
     background-color: #185dff;
     color: white;
+}
+.btn-blue-pastel {
+    background-color: #7C2BE8;
+    color: white;
+}
+.btn-blue-pastel:hover {
+    background-color: #8e48ea;
 }
 .btn-sm {
     font-size: 12px;
@@ -144,8 +150,15 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.main h1 {
+    font-size: 40px;
+}
 .lead {
     font-size: 20px;
+}
+hr {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: none;
 }
 .footer {
     padding-top: 20px;
