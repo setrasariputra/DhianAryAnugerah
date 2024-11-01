@@ -183,7 +183,16 @@ hr {
     color: white;
 }
 .quiz .quiz-options {
-
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.quiz .quiz-options .quiz-box {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border: 1px solid #E3E3E3;
+    color: #584E45;
 }
 .footer {
     padding-top: 20px;
